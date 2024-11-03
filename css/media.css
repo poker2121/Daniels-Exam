@@ -11,6 +11,10 @@
   .navbar-nav .nav-link.active::before {
     width: 10%;
   }
+  .navbar-collapse{
+    background-color: rgb(108, 115, 120);
+    color: black;
+  }
 }
 
 /**----------------header-----------------*/
