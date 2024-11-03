@@ -252,6 +252,7 @@ img {
 }
 
 .services .item {
+  text-align: center;
   padding: 40px 20px;
   background: #fff;
   box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.5);
@@ -260,10 +261,11 @@ img {
 
 .service-box .item .icon {
   font-size: 30px;
+  display: inline-block;
   margin-bottom: 20px;
   width: 70px;
   height: 70px;
-  line-height: 60px;
+  line-height: 65px;
   background: #f4f4f4;
   border-radius: 50%;
   transition: all 0.5s;
@@ -299,7 +301,8 @@ img {
   cursor: pointer;
   transition: color 0.3s ease;
   background-color: transparent; 
-  border: none; 
+  border: none;
+  padding: 5px 8px !important;
 }
 
 .portfolio .tags .nav-link.active {
@@ -334,7 +337,6 @@ img {
 .portfolio .tags {
   margin-bottom: 50px;
 }
-
 
 .portfolio .title h5 {
   font-size: 12px;
@@ -419,6 +421,7 @@ img {
   background-color: transparent;
   filter: invert(1);
 }
+
 
 
 /* End portfolio */
@@ -602,6 +605,7 @@ img {
 .contact .item {
   padding: 20px 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .contact-box .item .icon {
@@ -609,7 +613,7 @@ img {
   margin-bottom: 10px;
   width: 70px;
   height: 70px;
-  line-height: 60px;
+  line-height: 67px;
   background: #f4f4f4;
   border-radius: 50%;
   transition: all 0.5s;
