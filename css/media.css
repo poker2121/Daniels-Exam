@@ -1,0 +1,117 @@
+/**----------------Navbar-----------------*/
+@media (max-width: 950px), (min-width: 920px) and (max-width: 990px) {
+  .navbar-nav .nav-link::before {
+    bottom: -4px;
+    left: 0;
+    transform: none;
+    background-color: aliceblue;
+  }
+
+  .navbar-nav .nav-link:hover::before,
+  .navbar-nav .nav-link.active::before {
+    width: 10%;
+  }
+}
+/**----------------header-----------------*/
+@media (max-width: 450px) {
+  .content-header h5{
+    font-size: 25px;
+  }
+  .content-header span {
+    font-size: 35px;
+  }
+  .content-header .social-icon span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: 1px;
+  }
+}
+@media (max-width: 650px) {
+  .content-header h5{
+    font-size: 28px;
+  }
+
+}
+/**----------------about-----------------*/
+
+@media (max-width: 1150px) {
+  .about .row {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .about .col-md-5,
+  .about .col-md-7 {
+    width: 100%;
+  }
+
+  .about .col-md-5 {
+    order: -1;
+  }
+
+  .about .col-md-7 {
+    margin-top: 20px;
+  }
+
+  .about .content h3 {
+    font-size: 26px;
+  }
+
+  .about .buttons .btn {
+    padding: 8px 25px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 5rem 0;
+  }
+
+  .about .content h3 {
+    font-size: 24px;
+  }
+
+  .about .skills .progress {
+    height: 15px;
+  }
+
+  .about .buttons .btn {
+    padding: 8px 20px !important;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 4rem 0;
+  }
+
+  .about .content h3 {
+    font-size: 22px;
+  }
+
+  .about .content p,
+  .sub-title {
+    font-size: 14px;
+  }
+
+  .about .buttons {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .about .buttons .btn {
+    padding: 6px 15px !important;
+  }
+}
+
+
+/** ---------------- portfolio-------------- */
+
